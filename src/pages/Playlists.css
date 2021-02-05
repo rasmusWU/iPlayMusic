@@ -1,0 +1,22 @@
+.Playlists {
+    margin-top: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Playlists h1 {
+    font-size: 2.7em;
+    padding: 1em 0 0 1.3em;
+    font-family: 'open-sans', sans-serif;
+}
+
+.Playlists div {
+    width: 100%;
+}
+
+.Playlists .BgImg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

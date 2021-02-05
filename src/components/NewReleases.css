@@ -1,0 +1,8 @@
+.NewReleases {
+    margin-top: 2em;
+}
+
+.NewReleases .Releases {
+    display: flex;
+    flex-direction: column;
+}

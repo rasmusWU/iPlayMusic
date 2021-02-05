@@ -1,0 +1,35 @@
+.AlbumRelease {
+    display: flex;
+    flex-direction: row;
+    padding: 1em 3em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AlbumRelease img {
+    border-radius: 10px;
+    margin-right: 2em;
+}
+
+.AlbumRelease .AlbumInfo {
+    padding: 0.5em 0;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+    line-height: 50px;
+}
+
+.AlbumRelease .AlbumInfo h5 {
+    font-size: 1.3em;
+}
+
+.AlbumRelease p {
+    font-weight: 300;
+}
+
+.AlbumRelease .AlbumTracks {
+    width: 100%;
+    text-align: end;
+}
+

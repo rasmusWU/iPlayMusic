@@ -1,0 +1,44 @@
+.PlaylistEntry {
+    width: 100%;
+    padding: 1em 2em 1em 3em;
+    display: grid;
+    grid-template-columns: 8% 70% 10%;
+    grid-template-rows: auto;
+    line-height: 2.2em;
+    
+}
+
+.PlaylistEntry__PlayBtn {
+    margin-top: 25%;
+    height: 65%;
+    background-image: linear-gradient(to right, #ee0979, #ff6a00);
+    border-radius: 100%;
+}
+
+.PlaylistEntry__PlayBtn svg {
+    fill: white;
+}
+
+.PlaylistEntry__TitleSection {
+    padding-left: 2em;
+    line-height: 2.7em;
+}
+
+.PlaylistEntry__TitleSection h4 {
+    font-size: 1.6em;
+    font-family: 'open sans', sans-serif;
+}
+
+.PlaylistEntry__TitleSection p {
+    font-size: 1.2em;
+    font-weight: 200;
+    font-family: 'open sans', sans-serif;
+}
+
+.PlaylistEntry__TimeCode {
+    text-align: center;
+    padding-top: 1.3em;
+    font-size: 1.3em;
+    font-weight: 200;
+    font-family: 'open sans', sans-serif;
+}

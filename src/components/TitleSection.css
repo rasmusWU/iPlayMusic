@@ -1,0 +1,16 @@
+.TitleSection {
+    display: flex;
+    padding: 0 3em 1em 3em;
+    justify-content: space-between;
+}
+
+.TitleSection p {
+    color: #ff1168;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.TitleSection h3 {
+    font-weight: 400;
+    font-size: 1.7em;
+}

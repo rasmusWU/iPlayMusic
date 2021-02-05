@@ -1,0 +1,10 @@
+.FeaturedAlbums .AlbumSelection {
+    display: flex;
+    padding: 0 2em;
+}
+
+.FeaturedAlbums .AlbumSelection img {
+    margin: 1em;
+    width: 37%;
+    border-radius: 17px;
+}
