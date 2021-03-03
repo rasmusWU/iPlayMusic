@@ -1,19 +1,19 @@
 .Featured {
-    width: 100%;
-    padding-top: 20%;
+	width: 100%;
+	padding-top: 20%;
 }
 
 .Featured h1 {
-    padding-left: 1em;
-    padding-bottom: 1em;
-    font-size: 3em;
-    background: -webkit-linear-gradient(-360deg, #ee0979, #ff6a00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	font-size: 3em;
+	background: -webkit-linear-gradient(-360deg, #ee0979, #ff6a00);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .FeaturedAlbums {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }

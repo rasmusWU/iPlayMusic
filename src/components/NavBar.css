@@ -1,28 +1,28 @@
 .NavBar {
-    background-color: #111625;
-    height: 6em;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+	background-color: #111625;
+	height: 6em;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .NavBar i {
-    font-size: 2em;
-    background: -webkit-linear-gradient(-360deg, #ee0979, #ff6a00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	font-size: 2em;
+	background: -webkit-linear-gradient(-360deg, #ee0979, #ff6a00);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .NavBar i:hover {
-    background: -webkit-linear-gradient(#fff, #fff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    cursor: pointer;
+	background: -webkit-linear-gradient(#fff, #fff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: pointer;
 }
 
 .NavBar i:nth-of-type(3) {
-    font-size: 3.7em;
+	font-size: 3.7em;
 }
