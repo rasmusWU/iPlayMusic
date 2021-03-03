@@ -1,29 +1,29 @@
 .FeaturedSection {
-    background-image: url('https://via.placeholder.com/600/14108D');
-    background-size: cover;
-    background-position: center;
-    width: 90%;
-    height: 60vh;
-    border-radius: 15px;
-    margin-bottom: 5em;
-    display: flex;
-    flex-direction: column-reverse;
+	background-image: url("https://via.placeholder.com/600/14108D");
+	background-size: cover;
+	background-position: center;
+	width: 90%;
+	height: 60vh;
+	border-radius: 15px;
+	margin-bottom: 5em;
+	display: flex;
+	flex-direction: column-reverse;
 }
 
 .FeaturedSection .TextSection {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 6em;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 6em;
 }
 
 .FeaturedSection .TextSection h2 {
-    font-size: 3em;
-    font-weight: 700;
-    font-family: 'Open sans', sans-serif;
-    padding: 0 3em 0 1em;
+	font-size: 3em;
+	font-weight: 700;
+	font-family: "Open sans", sans-serif;
+	padding: 0 3em 0 1em;
 }
 
 .FeaturedSection .TextSection p {
-    padding: 1.5em 3em 0 2.5em;
-    font-size: 1.3em;
+	padding: 1.5em 3em 0 2.5em;
+	font-size: 1.3em;
 }
