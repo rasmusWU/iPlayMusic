@@ -6,7 +6,7 @@ function Login() {
 		response_type: "code",
 		client_id: "08ce924a8b164d4a9304e057d417a12f",
 		scope: "user-read-private user-read-email",
-		redirect_uri: "http://localhost:8888/callback",
+		redirect_uri: window.location.href.includes("netlify") ? "https://zealous-meninsky-23be00.netlify.app/callback" : "http://localhost:8888/callback",
 		state: "34987thg87tgher8tgh43t87gtfrew8gfer7ifwer7ifugre376fg34867trf43g78rfre8f4we68gfrd4w367irg",
 	});
 
